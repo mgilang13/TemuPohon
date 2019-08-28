@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mgilang13.temupohon.ViewPohon"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:weightSum="1">
+
+    animateLayoutChanges adds auto-animation
+    <io.gloxey.cfv.CFTextView
+    android:animateLayoutChanges="true"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:id="@+id/banner"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:text="Data Pohon"
+    android:textSize="35sp"
+    app:font_name="@string/akrobatExtraBold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:animateLayoutChanges="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gambarPohon"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/banner"/>
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/namaPohon"
+        android:text="-"
+        android:textSize="25sp"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:font_name="@string/akrobatExtraBold"
+        android:layout_below="@+id/gambarPohon"/>
+
+    <TextView
+        android:animateLayoutChanges="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/namaLatin"
+        android:text="-"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"/>
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sinonim:"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:layout_marginTop="15dp"
+    app:font_name="@string/akrobatBold"
+    android:textColor="@color/brown"/>
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sinonim"
+        android:text="-"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        app:font_name="@string/akrobatBold"/>
+
+    <ExpandableListView
+        android:animateLayoutChanges="true"
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="600dip"
+        android:layout_gravity="start"
+        android:dividerHeight="1dp"
+        android:groupIndicator="@null">
+    </ExpandableListView>
+
+    <io.gloxey.cfv.CFButton
+        android:layout_width="200px"
+        android:layout_height="75px"
+        android:text="SEND REPLY"
+        android:textStyle="bold"
+        android:background="@color/hijau"
+        android:textColor="@color/brown"
+        app:font_name="@string/akrobatBold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:id="@+id/btnPesan"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/lvExp"/>
+
+    <io.gloxey.cfv.CFButton
+        android:id="@+id/backtoScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali Scan"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        app:font_name="Akrobat-Bold.ttf"/>
+</LinearLayout>
+</ScrollView>

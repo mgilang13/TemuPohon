@@ -1,0 +1,126 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mgilang13.temupohon.Pesan"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:orientation="vertical"
+    android:transcriptMode="alwaysScroll"
+    android:layout_margin="10dp">
+
+    animateLayoutChanges adds auto-animation
+
+    <io.gloxey.cfv.CFTextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:animateLayoutChanges="true"
+        android:gravity="center_horizontal"
+        android:text="Kirim Pesan"
+        android:textSize="35sp"
+        app:font_name="@string/akrobatExtraBold"
+        android:textColor="@color/brown" />
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengunjung :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:font_name="@string/akrobatBold"
+        android:textColor="@color/brown"/>
+
+    <EditText
+        android:id="@+id/txtNamaPengunjung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Pengunjung :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:font_name="@string/akrobatBold"
+        android:textColor="@color/brown"/>
+
+    <EditText
+        android:id="@+id/txtEmailPengunjung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <io.gloxey.cfv.CFTextView
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Pesan :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:font_name="@string/akrobatBold"
+        android:textColor="@color/brown"/>
+
+
+    <EditText
+        android:id="@+id/txtIsiPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/abu"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:lines="6"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:scrollHorizontally="false"
+        android:padding="5dp"/>
+
+    <io.gloxey.cfv.CFButton
+        android:layout_width="300px"
+        android:layout_height="75px"
+        android:text="SEND MESSAGE"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        app:font_name="@string/akrobatBold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:id="@+id/btnPesan"/>
+
+    <io.gloxey.cfv.CFButton
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Scan!"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/red"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        app:font_name="@string/akrobatExtraBold"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
+</ScrollView>

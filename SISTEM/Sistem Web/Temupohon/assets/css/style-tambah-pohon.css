@@ -1,0 +1,71 @@
+.content {
+	display:inline;
+}
+
+#form-left {
+	width:500px;
+	margin:30px 30px 50px 150px;
+	font-size: 17pt;
+	color:#56752D;
+	float:left;
+}
+
+.form-control {
+	display: block;
+}
+
+table tr .form-control h3 {
+	display: inline;
+}
+
+table tr .field {
+	display: inline;
+	width:300px;
+	border:1px solid #56752D;
+	font-size:15pt;
+	padding:2px;
+}
+
+table tr .field-area {
+	display: inline;
+	width:300px;
+	border:1px solid #56752D;
+	font-size:15pt;
+	padding:2px;
+	height:120px;
+}
+
+#vr-line img{
+	float:left!important;
+	height:510px!important;
+	margin-right:57px;
+	width:5px;
+}
+#form-right {
+	width:500px;
+	margin:30px 30px 50px 30px;
+	font-size: 17pt;
+	color:#56752D;
+	float:left;
+}
+
+#inputGambar {
+	color: white;
+	background-color: #56752D;
+	border: none;
+	width: 300px;
+	height: 31px;
+	cursor: pointer;
+}
+
+#simpanData {
+	color:white;
+	background-color: #56752D;
+	border:none;
+	height:35px;
+	width:300px;
+	cursor:pointer;
+	font-size: 16pt;
+	padding:5px;
+	margin-top:50px;
+}

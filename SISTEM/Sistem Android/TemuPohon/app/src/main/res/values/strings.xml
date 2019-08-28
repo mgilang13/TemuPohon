@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">"Temu Pohon "</string>
+    <string name="akrobatRegular">Akrobat-Regular.ttf</string>
+    <string name="akrobatBold">Akrobat-Bold.ttf</string>
+    <string name="akrobatExtraBold">Akrobat-ExtraBold.ttf</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Tekan tombol "SCAN POHON"</string>
+    <string name="desc_slide1">Tombol ini akan membuka scanner QR Code pada aplikasi ini</string>
+    <string name="title_slide2">Arahkan QR Code</string>
+    <string name="desc_slide2">Lakukan scanning pada Medium QR Code di samping pohon yang telah terdaftar</string>
+    <string name="title_slide3">Baca informasi yang ditampilkan</string>
+    <string name="desc_slide3">Informasi ini dapat digunakan sebagai referensi real-time</string>
+    <string name="title_slide4">Kirim feedback</string>
+    <string name="desc_slide4">Kirim masukan apabila anda menemuan ketidakjelasan informasi</string>
+
+</resources>

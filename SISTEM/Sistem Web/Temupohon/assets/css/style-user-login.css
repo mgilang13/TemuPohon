@@ -1,0 +1,109 @@
+@font-face {
+	font-family:'Akrobat';
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+}
+
+#background-login {
+	background-image: url('../../assets/images/bg-image-user.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Akrobat';
+}
+
+#form-login {
+	position:relative;
+	left:25%;
+	padding:3%;
+	background-color:#98C75A;
+	width:20%;
+	margin:350px 15% 0px 15%;
+}
+
+tr.row-form1 {
+	position: relative;
+	bottom:4px;
+}
+
+.row-form1 #username-field {
+	width:200px;
+	height:25px;
+	margin-left:10px;
+}
+
+.row-form2 #password-field {
+	width:200px;
+	height:25px;
+	margin-left:10px;
+}
+
+#form-login table tr td {
+	margin-left:30px;
+}
+
+.tombol-login {
+	border:none;
+	width:100px;
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:#392518;
+	color:white;
+	font-size:15pt;
+}
+
+.tombol-login:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#register-link {
+	font-size:10pt;
+	float:right;
+	position: relative;
+	left: 25px;
+	top:30px;	
+}
+
+#register-link a{
+	text-decoration: none;
+	color:#34495e;
+}
+
+#register-link a:hover{
+	color:#8e44ad;
+	transition-duration: 0.4s;
+}
+
+#btn-back {
+	background-color:#0C749F;
+	padding:5px 10px;
+	color:white;
+	text-decoration: none;
+	position: relative;
+	top: 29px;
+	right: 30px;
+}
+
+#btn-back:hover {
+	background-color: #8e44ad;
+	transition-duration: 0.4s;
+}
+
+#lupaPassword {
+	position: static;
+	float: right;
+	margin: 0px -35px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #c0392b;
+	text-transform: capitalize;
+}
+
+#lupaPassword:hover {
+	color:#8e44ad;
+	transition-duration: 0.4s;
+}
+
+.warning {
+	color:green;
+}

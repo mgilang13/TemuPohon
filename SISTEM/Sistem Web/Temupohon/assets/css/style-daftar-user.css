@@ -1,0 +1,240 @@
+@font-face {
+	font-family:'Akrobat';
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+}
+
+* {
+	padding: 0px;
+	margin:0px;
+	font-family: 'Akrobat';
+}
+
+header img {
+	width:100px	;
+	margin:10px;
+	display: inline;
+}
+
+.title-page {
+	margin: 10px;
+	display: inline;
+	font-size:50pt;
+	font-weight: 800;
+	position: relative;
+	bottom:25px;
+	color:#392518;
+}
+
+#tabel-pesan {
+	padding:10px;
+	bottom:250px;
+	width:1200px;
+	margin-top:100px;
+	margin-left:30px;
+	text-align:center;
+}
+
+#tabel-pesan thead tr th{
+	border-bottom:5px solid #00AFEF;
+}
+
+#tabel-pesan, td{
+	padding:5px 10px;
+}
+
+.hijau {
+	color:#56752D;
+}
+
+.biru {
+	color:#0C749F;
+}
+
+.ungu {
+	color:#A53692;
+}
+
+.biru-tua {
+	color:#3E4095;
+}
+
+.coklat {
+	color:#392518;
+}
+button {
+	float:left;
+	margin: 0px 2px;
+}
+button a {
+	color:white;
+	text-decoration: none;
+}
+
+#konfirmasi {
+	border:none;
+	width:50px;
+	height:20px;
+	background-color:#0C749F;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#delete {
+	border:none;
+	width:50px;
+	height:20px;
+	background-color:#ED3237;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#view {
+	border:none;
+	width:50px;
+	height:20px;
+	background-color:#392518;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#edit {
+	border:none;
+	width:50px;
+	height:20px;
+	background-color:#56752D;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#panel-pesan {
+	margin-top:100px;
+	margin-left:150px;
+}
+
+#panel-pesan h2{
+	font-size:24pt;
+	margin-bottom:5px;
+}
+
+#panel-pesan h3{
+
+	color:white;
+	padding:5px;
+	width:1000px;
+	background-color: #0C749F;
+}
+
+.field {
+	width: 246px;
+	padding: 2px;
+	font-size: 17pt;
+	color: #0C749F;
+	border: 2px solid #0C749F;
+	cursor: pointer;
+}
+
+.badan-pesan {
+	border:none;
+	padding:2px;
+	background-color:#E6E7E8;
+	color:#0C749F;
+	width:1000px;
+	font-size: 18pt;
+	height:200px;
+}
+
+#btn-submit {
+	margin:10px 200px 50px 0px;
+	width:120px;
+	float:right;
+	border:none;
+	color:white;
+	padding:5px;
+	background-color: #0C749F;
+	font-size:20pt;
+	cursor:pointer;
+}
+
+#btn-submit:hover {
+	opacity:0.8;
+	transition-duration: 0.4s;
+}
+
+
+#pagination {
+	position: relative;
+	bottom: 0px;
+	left: 210px;
+	font-size: 20px;
+}
+
+#pagination strong, #pagination a {
+	text-decoration: none;
+	background-color: #56752D;
+	padding: 0px 7px;
+	color: white;
+}
+
+#pagination a:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+
+#pencarian {
+	border:2px solid #0C749F;
+	color:#0C749F;
+	padding:4px;
+	font-size: 15pt;
+	position: relative;
+	bottom: 0px;
+	margin-left:880px;
+}
+
+#btn-cari {
+	margin-left:4px;
+	margin-right:80px;
+	border:2px solid #0C749F;
+	color:white;
+	background-color:#0C749F;
+	padding:4px;
+	font-size:15pt;
+	cursor:pointer;
+	font-weight: bold;
+	float:right;
+	position: relative;
+	bottom:0px;
+}
+
+#btn-cari:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#tabel-user th {
+	border-bottom : 4px solid #00AFEF;
+}
+
+#tabel-user {
+	margin-left:200px;
+	margin-top:100px;
+	background-color:#E6E7E8;
+}
+
+h3 {
+	font-size:40pt;
+}
+
+#subtitle {
+	font-size:19pt;
+	margin-left:10px;
+	text-decoration: none;
+	background-color: #0C749F;
+	padding:5px;
+	color:white;
+}
+
+#subtitle:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}

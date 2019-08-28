@@ -1,0 +1,96 @@
+#background-login-admin {
+	background-image: url('../../assets/images/bg-image-admin.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#form-login-admin {
+	position:relative;
+	left:25%;
+	padding:3%;
+	background-color:#00AFEF;
+	width:20%;
+	margin:350px 15% 0px 15%;
+}
+
+.row-form1-admin {
+	position: relative;
+	bottom:4px;
+}
+
+.row-form3-admin {
+	position: relative;
+	top:4px;	
+}
+
+.row-form1-admin input {
+	width:200px;
+	height:25px;
+	margin-left:10px;
+}
+
+.row-form2-admin input {
+	width:200px;
+	height:25px;
+	margin-left:10px;
+}
+.row-form3-admin select {
+	width:200px;
+	height:25px;
+	margin-left:10px;
+	cursor:pointer;
+}
+
+#form-login-admin table tr td {
+	margin-left:30px;
+}
+
+.tombol-login-admin {
+	border:none;
+	width:100px;
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:#392518;
+	color:white;
+	font-size:15pt;
+}
+
+.tombol-login-admin:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#btn-back {
+	background-color:#0C749F;
+	padding:5px 10px;
+	color:white;
+	text-decoration: none;
+	position: relative;
+	top: 29px;
+	right: 30px;
+}
+
+#btn-back:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#lupaPasswordAdmin {
+	position: static;
+	float: left;
+	margin: 0px 86px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #c0392b;
+	text-transform: capitalize;
+}
+
+#lupaPasswordAdmin:hover {
+	color:#8e44ad;
+	transition-duration: 0.4s;
+}
+
+.warning {
+	color:#2c3e50;
+}

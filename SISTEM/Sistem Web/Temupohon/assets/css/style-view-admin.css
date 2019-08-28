@@ -1,0 +1,31 @@
+#content {
+	margin-top:100px;
+}
+h1 {
+	color:#392518;
+	font-weight: 900;
+	font-size: 50pt;
+}
+table {
+	border-collapse: collapse;
+}
+.th-vertical {
+	font-weight:900;
+	background-color:black;
+	color:#392518;
+	background-color: #98C75A;
+}
+
+table tr, td {
+	border:1px solid black;
+	padding:10px;
+	color:#392518;
+}
+
+img {
+	height:200px;
+	width: 200px;
+	margin-bottom:10px;
+	border:none;
+}
+

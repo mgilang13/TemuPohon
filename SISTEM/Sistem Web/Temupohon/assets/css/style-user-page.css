@@ -1,0 +1,272 @@
+@font-face {
+	font-family:'Akrobat';
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+}
+
+* {
+	padding: 0px;
+	margin:0px;
+	font-family: 'Akrobat';
+}
+
+header img {
+	width:100px	;
+	margin:10px;
+	display: inline;
+}
+
+.title-page {
+	margin: 10px;
+	display: inline;
+	font-size:50pt;
+	font-weight: 800;
+	position: relative;
+	bottom:25px;
+	color:#392518;
+}
+
+#pagination {
+	position: relative;
+	bottom: 240px;
+	left: 335px;
+	font-size: 20px;
+}
+
+#pagination strong, #pagination a {
+	text-decoration: none;
+	background-color: #56752D;
+	padding: 0px 7px;
+	color: white;
+}
+
+#pagination a:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#btn-logout {
+	background-color: #de2525;
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 11px;
+font-size: 19pt;
+z-index: 1;
+position: static;
+right: 0;
+top: 54px;
+display: inline-block;
+}
+
+#btn-logout:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+.btn-ubah-profil {
+	border: none;
+	color: white;
+	background-color: #56752D;
+	width:250px;
+	height: 100px;
+	font-size:30pt;
+	font-weight: 600;
+	cursor: pointer;
+	float:right;
+	margin:10px;
+}
+.btn-ubah-profil a{
+	text-decoration: none;
+	color:white;
+	position: relative;
+	z-index: 1;
+}
+.btn-ubah-profil:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+div#content1 {
+	width:100px;
+	margin-top:10%;
+}
+
+.pesan-admin {
+	background-color: #0C749F;
+	float:left;
+	display: block;
+	font-size: 20pt;
+	padding:5px;
+	font-weight: 700;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	padding: 29px;
+	width: 195px;
+	height: 49px;
+}
+
+#tambah-pohon {
+	background-color: #56752D;
+    float: left;
+    display: block;
+    font-size: 21pt;
+    padding: 30px 45px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+    width: 161px;
+    height: 35px;
+    text-decoration: none;
+	color:white;
+}
+
+#tambah-pohon:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+.pesan-admin a{
+	text-decoration: none;
+	color:white;
+}
+
+div#content2 {
+	width:1000px;
+	margin-left: 100px;
+	position: relative;
+	top:100px;
+
+}
+
+#content2 h1 {
+	color:#392518;
+	font-weight: 800;
+	font-size: 40pt;
+	position: relative;
+	bottom: 400px;
+	margin-left: 200px;
+	z-index: -1;
+}
+
+.scroll {
+	width:1000px;
+	height:100px;
+	overflow: auto;
+}
+#tabel-pohon {
+	padding:10px;
+	position:relative;
+	bottom:360px;
+	width:1000px;
+	margin-left:200px;
+	text-align:center;
+}
+
+#tabel-pohon tr th{
+	border-bottom:5px solid #00AFEF;
+}
+#tabel-pohon, td{
+	padding:5px 10px;
+}
+	
+#gambar-thead {
+	color:#56752D;
+}
+
+#nama-thead {
+	color: #0C749F;
+}
+
+#latin-thead {
+	color:#392518;
+}
+
+#aksi-thead {
+	color:#A53692;
+}
+
+#aksi {
+	padding:0px;
+}
+
+.tombol-aksi {
+	border:none;
+	width:80px;
+	height:40px;
+	padding:5px 5px 5px 7px;
+	cursor:pointer;
+	text-align: right;
+	font-size: 12pt;
+	font-weight:700;
+	position: relative;
+	margin:0px 2px;
+}
+
+.tombol-aksi:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+.tombol-aksi span img {
+	width:20px;
+	float:left;
+	margin-top:4px;
+}
+
+#print_qr {
+	background-color: #98C75A;
+	text-decoration: none;
+	color:black;
+}
+
+#more {
+	background-color: #00AFEF;
+	text-decoration: none;
+	color:black;
+}
+
+#update {
+	background-color: #A53692;
+	color:white;	
+	text-decoration: none;
+	color:white;
+}
+
+#delete {
+	background-color: #ED3237;
+	color:white;
+	text-decoration: none;
+	color: white;
+}
+
+
+#pencarian {
+	border:2px solid #0C749F;
+	color:#0C749F;
+	padding:4px;
+	font-size: 15pt;
+	position: relative;
+	bottom: 200px;
+	margin-left:880px;
+}
+
+#btn-cari {
+	margin-left:4px;
+	margin-right:80px;
+	border:2px solid #0C749F;
+	color:white;
+	background-color:#0C749F;
+	padding:4px;
+	font-size:15pt;
+	cursor:pointer;
+	font-weight: bold;
+	float:right;
+	position: relative;
+	bottom:106px;
+}
+
+#btn-cari:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}

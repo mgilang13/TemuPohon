@@ -1,0 +1,213 @@
+@font-face {
+	font-family:'Akrobat';
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+}
+
+* {
+	padding: 0px;
+	margin:0px;
+	font-family: 'Akrobat';
+}
+
+header img {
+	width:100px	;
+	margin:10px;
+	display: inline;
+}
+
+.title-page {
+	margin: 10px;
+	display: inline;
+	font-size:50pt;
+	font-weight: 800;
+	position: relative;
+	bottom:25px;
+	color:#392518;
+}
+
+.btn-ubah-profil {
+	border: none;
+	color: white;
+	background-color: #56752D;
+	width:250px;
+	height: 100px;
+	font-size:30pt;
+	font-weight: 600;
+	cursor: pointer;
+	float:right;
+	margin:10px;
+}
+.btn-ubah-profil a{
+	text-decoration: none;
+	color:white;
+	position: relative;
+	z-index: 1;
+}
+.btn-ubah-profil:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#btn-logout {
+	background-color: #de2525;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 11px;
+	font-size: 19pt;
+	z-index: 1;
+	position: static
+	margin-left:10px;
+}
+
+#btn-logout:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+
+div#content1 {
+	width:1000px;
+	margin-left: 100px;
+
+}
+
+#content1 h1 {
+	color:#392518;
+	font-weight: 800;
+	font-size: 55pt;
+	bottom: 151px;
+	margin-left: 400px;
+}
+
+.hijau {
+	color:#56752D;
+}
+
+.biru {
+	color:#0C749F;
+}
+
+.ungu {
+	color:#A53692;
+}
+
+.biru-tua {
+	color:#3E4095;
+}
+
+.coklat {
+	color:#392518;
+}
+
+#table-admin {
+	width:1100px;
+	margin-top:40px;
+	margin-left: 50px;
+}
+
+#table-admin th{
+	border-bottom:5px solid #0C749F;
+	font-size: 17pt;
+}
+
+#table-admin, td {
+	padding:0px 25px;
+}
+
+.btn-aksi {
+	border:none;
+}
+.btn-aksi a {
+	color:white;
+	text-decoration: none;
+	padding:7px;
+	font-size:12pt;
+}
+
+.view {
+	background-color: #392518;
+}
+
+.edit {
+	background-color: #56752D;
+}
+
+.delete {
+	background-color:#ED3237;
+}
+
+.pesan-admin {
+	background-color: #A53692;
+	cursor: pointer;
+	float: right;
+	text-decoration: none;
+	font-size: 33px;
+	padding: 10px;
+	width: 218px;
+	height: 52px;
+}
+
+.pesan-admin:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+
+#pencarian {
+	border:2px solid #0C749F;
+	color:#0C749F;
+	padding:4px;
+	font-size: 15pt;
+	position: relative;
+	bottom: -23px;
+	margin-left:880px;
+	z-index: 1;
+}
+
+#btn-cari {
+	margin-left:4px;
+	margin-right:80px;
+	border:2px solid #0C749F;
+	color:white;
+	background-color:#0C749F;
+	padding:4px;
+	font-size:15pt;
+	cursor:pointer;
+	font-weight: bold;
+	float:right;
+	position: relative;
+	bottom:-22px;
+}
+
+#btn-cari:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#pagination {
+	position: relative;
+	bottom: 0px;
+	left: 335px;
+	font-size: 20px;
+}
+
+#pagination strong, #pagination a {
+	text-decoration: none;
+	background-color: #56752D;
+	padding: 0px 7px;
+	color: white;
+}
+
+#pagination a:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#btn-mPengunjung {
+	background-color:#2c3e50;
+	text-decoration: none;
+	color:white;
+	padding: 20px;
+	position: static;
+}

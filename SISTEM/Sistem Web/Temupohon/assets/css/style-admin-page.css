@@ -1,0 +1,494 @@
+@font-face {
+
+	font-family:'Akrobat';
+
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+
+}
+
+
+
+* {
+
+	padding: 0px;
+
+	margin:0px;
+
+	font-family: 'Akrobat';
+
+}
+
+
+
+header img {
+
+	width:100px	;
+
+	margin:10px;
+
+	display: inline;
+
+}
+
+
+
+.title-page {
+
+	margin: 10px;
+
+	display: inline;
+
+	font-size:50pt;
+
+	font-weight: 800;
+
+	position: relative;
+
+	bottom:25px;
+
+	color:#392518;
+
+}
+
+
+
+.btn-ubah-profil {
+
+	border: none;
+
+	color: white;
+
+	background-color: #56752D;
+
+	width:250px;
+
+	height: 100px;
+
+	font-size:30pt;
+
+	font-weight: 600;
+
+	cursor: pointer;
+
+	float:right;
+
+	margin:10px;
+
+}
+
+.btn-ubah-profil a{
+
+	text-decoration: none;
+
+	color:white;
+
+	position: relative;
+
+	z-index: 1;
+
+}
+
+.btn-ubah-profil:hover {
+
+	opacity: 0.8;
+
+	transition-duration: 0.4s;
+
+}
+
+
+
+#btn-logout {
+
+	background-color: #de2525;
+
+	color: white;
+
+	text-decoration: none;
+
+	font-weight: bold;
+
+	padding: 11px;
+
+	font-size: 19pt;
+
+	z-index: 1;
+
+	position: relative;
+
+	right: 513px;
+
+	top: 54px;
+
+}
+
+
+
+#btn-logout:hover {
+
+	opacity: 0.8;
+
+	transition-duration: 0.4s;
+
+}
+
+
+
+div#content1 {
+
+	width:100px;
+
+	margin-top:10%;
+
+}
+
+
+
+.pesan-user {
+
+	background-color: #0C749F;
+
+	float:left;
+
+	display: block;
+
+	font-size: 20pt;
+
+	padding:35px;
+
+	font-weight: 700;
+
+	position: relative;
+
+	z-index: 1;
+
+	text-decoration:none;
+
+	color:white;
+
+	width:190px;
+
+	height: 32px;
+
+}
+
+
+
+.pesan-pengunjung {
+
+	background-color: #A53692;
+
+	float:left;
+
+	display: block;
+
+	font-size: 20pt;
+
+	padding: 11px 36px 53px;
+
+	font-weight: 700;
+
+	position: relative;
+
+	z-index: 1;
+
+	text-decoration:none;
+
+	color:white;
+
+	width:190px;
+
+	height: 32px;
+
+	text-align:center;
+
+}
+
+
+
+.tambah-pohon {
+
+	background-color: #56752D;
+
+	float:left;
+
+	display: block;
+
+	font-size:21pt;
+
+	padding: 5px;
+
+	font-weight: 700;
+
+	position: relative;
+
+	z-index: 1;
+
+}
+
+
+
+div#content2 {
+
+	width:1000px;
+
+	margin-left: 100px;
+
+	position: relative;
+
+
+
+}
+
+
+
+#content2 h1 {
+
+	color:#392518;
+
+	font-weight: 800;
+
+	font-size: 58pt;
+
+	position: relative;
+
+	bottom: 330px;
+
+	margin-left: 269px;
+
+}
+
+
+
+.scroll {
+
+	width:1000px;
+
+	height:100px;
+
+	overflow: auto;
+
+}
+
+#tabel-pohon {
+
+	padding:10px;
+
+	width:1000px;
+
+	margin-left:200px;
+
+	text-align:center;
+
+	bottom: 313px;
+
+	position: relative;
+
+}
+
+
+
+#tabel-pohon tr th{
+
+	border-bottom:5px solid #00AFEF;
+
+}
+
+#tabel-pohon, td{
+
+	padding:5px 10px;
+
+}
+
+	
+
+#gambar-thead {
+
+	color:#56752D;
+
+}
+
+
+
+#nama-thead {
+
+	color: #0C749F;
+
+}
+
+
+
+#latin-thead {
+
+	color:#392518;
+
+}
+
+
+
+#aksi-thead {
+
+	color:#A53692;
+
+}
+
+
+
+#aksi {
+
+	padding:0px;
+
+}
+
+
+
+.tombol-aksi {
+
+	border:none;
+
+	width:80px;
+
+	height:40px;
+
+	padding:5px 5px 5px 7px;
+
+	cursor:pointer;
+
+	text-align: right;
+
+	font-size: 12pt;
+
+	font-weight:700;
+
+	position: relative;
+
+	margin:0px 2px;
+
+}
+
+
+
+.tombol-aksi:hover {
+
+	opacity: 0.8;
+
+	transition-duration: 0.4s;
+
+}
+
+
+
+.tombol-aksi span img {
+
+	width:20px;
+
+	float:left;
+
+	margin-top:4px;
+
+}
+
+
+
+#print_qr {
+
+	background-color: #98C75A;
+
+	text-decoration: none;
+
+	color:black;
+
+}
+
+
+
+#more {
+
+	background-color: #00AFEF;
+
+	text-decoration: none;
+
+	color:black;
+
+}
+
+
+
+#pencarian {
+
+	border:2px solid #0C749F;
+
+	color:#0C749F;
+
+	padding:4px;
+
+	font-size: 15pt;
+
+	position: relative;
+
+	bottom: 220px;
+
+	margin-left:880px;
+
+	z-index: 1;
+
+}
+
+
+
+#btn-cari {
+
+	margin-left:4px;
+
+	margin-right:80px;
+
+	border:2px solid #0C749F;
+
+	color:white;
+
+	background-color:#0C749F;
+
+	padding:4px;
+
+	font-size:15pt;
+
+	cursor:pointer;
+
+	font-weight: bold;
+
+	float:right;
+
+	position: relative;
+
+	bottom:137px;
+
+
+}
+
+
+
+#btn-cari:hover {
+
+	opacity: 0.8;
+
+	transition-duration: 0.4s;
+
+}
+
+#btn-mPengunjung {
+
+	background-color:#2c3e50;
+
+	text-decoration: none;
+
+	color:white;
+
+	padding: 20px;
+
+	position: relative;
+
+	left: -269px;
+	
+	top: 122px;
+
+}

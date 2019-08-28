@@ -1,0 +1,154 @@
+@font-face {
+	font-family:'Akrobat';
+	src:local ('Akrobat Bold'), url('assets/fonts/akrobat-bold-webfont.woff'), format('woff');
+}
+
+/*====================================*/
+/*tubuh web*/
+* {
+	padding: 0px;
+	margin:0px;
+	font-family: 'Akrobat';
+}
+
+#header-welcome {
+	background-color: #98C75A;
+	padding:5px;
+	margin:0px;
+}
+
+/*=======================================*/
+/*ngedit banner atas*/
+#header-welcome h1{
+	font-family:'Akrobat';
+	font-weight:900;
+	color:#392518;
+	font-size:30pt;
+	text-align: center;
+}
+
+/*====================================*/
+/*isi ditengah halaman home*/
+.content {
+	display: inline-block;
+	margin:30px ;
+	position: static;
+}
+/*logo besar*/
+#sisi-kiri img {
+	width:400px;
+	margin-top:75px;
+	display:inline-block;
+}
+
+/*=====================================*/
+/*list tombol*/
+#tombol {
+	display:inline-block;
+	margin-left:125px;
+	position: relative;
+	top:100px;
+}
+
+.tombol-block {
+	display: block;
+	padding:10px 10px 10px 30px;
+	margin:10px;
+	text-align:right;
+	width:170px;
+	height:50px;
+	cursor:pointer;
+	border:none;
+}
+a.tombol-block {
+	text-decoration: none;
+	color:white;
+}
+
+.tombol-block:hover{
+	opacity:0.8;
+	transition-duration: 0.4s;
+}
+
+/*=====================================*/
+.tombol-block a {
+	text-decoration: none;
+	color:white;
+}
+
+/*================================*/
+/*blok tombol*/
+#home {
+	background-color:#3E4095;
+	font-size: 24pt;
+}
+
+#login {
+	background-color:#0C749F;
+	font-size:24pt;
+}
+
+#tentangkami {
+	background-color:#A53692;
+	font-size:18pt;
+}
+#registrasiuser{
+	background-color:#0F8CBE;
+	font-size: 18pt;
+}
+
+/*=============================*/
+/*blok icon*/
+.icon-block img {
+	width:40px;
+	float:left;
+	margin-left:-19px;
+}
+
+/*=================================*/
+/*gambar besar*/
+
+#sisi-kanan img {
+	width:400px;
+	margin-left:25px;
+	margin-bottom:-130px;
+	display:inline-block;
+}
+
+/*=====================================*/
+/*submenu*/
+.content-submenu a{
+	text-decoration: none;
+	color:white;
+}
+.content-submenu {
+	visibility: hidden;
+}
+.submenu {
+	border:none;
+	padding:10px 10px 10px 30px;
+	cursor: pointer;
+	display:block;
+	margin-bottom: 5px;
+	position:relative;
+	left: 230px;
+	bottom: 279px;
+	width:100px;
+	text-align: right;
+}
+
+
+.submenu:hover {
+	opacity: 0.8;
+	transition-duration: 0.4s;
+}
+
+#user-btn {
+	background-color:#56752D;
+	font-size: 24pt;
+}
+
+#admin-btn {
+	background-color: #0F8CBE;
+	font-size: 24pt;
+}
